@@ -19,23 +19,15 @@ pandas
 Installation:
 
 Clone the repository:
-
-bash
-Copy code
 git clone https://github.com/marcelgrama/medical-analysis-bulletin-converter.git
+
 Change to the project directory:
-
-bash
-Copy code
 cd medical-analysis-bulletin-converter
+
 Install the required packages:
-
-Copy code
 pip install -r requirements.txt
-Usage:
 
-php
-Copy code
+Usage:
 python index.py <pdf_path>
 Replace <pdf_path> with the path to your medical analysis bulletin PDF file. The script will generate a cleaned DOCX file and a structured CSV file in the same directory as the input PDF file.
 
